@@ -33,7 +33,7 @@ public :
 	void display  () {
 		std::cout << "Product : \t" << Ttl << std::endl;
 		std::cout << "Description : \t" << Desc << std::endl;
-		std::cout << "Quantity : \t" << Qtity <<std:: endl;
+		std::cout << "Quantity : \t" << Qtity << std:: endl;
 		std::cout << "Unit Price : \t" << UPrc << " Euros" << std::endl;
 	}
 };
