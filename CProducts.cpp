@@ -9,7 +9,7 @@ private :
 public :
 
 	Products (std::string Ttl,std::string Desc,int Qtity,float UPrc) {
-		std::cout <<"Product Constructor Called"<< std::endl;
+		//std::cout <<"\nProduct Constructor Called\n"<< std::endl;
 		this-> Ttl = Ttl;
 		this-> Desc = Desc;
 		this-> Qtity = Qtity;
