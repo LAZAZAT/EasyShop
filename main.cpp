@@ -17,7 +17,7 @@ int main(){
 	std::cout << "Test display product :\n" << std::endl;*/
 	P1.display ();
 
-	client C1("Oussama","LAZAZAT",0);
+	client C1(16012022,"Oussama","LAZAZAT",0);
 
 	/*std::cout << "Test client getters :\n" << std::endl;
 
@@ -27,6 +27,10 @@ int main(){
 	C1.setPanier (1);
 	std::cout << "\nTest display client :\n" << std::endl;*/
 	C1.display ();
+
+	Order O1 (16011999,10,0);
+
+	O1.display();
 
 	return 0;
 }
